@@ -1,0 +1,21 @@
+{
+  "name": "oob-mp-55786",
+  "description": "oob probe marketplace 55786",
+  "owner": {
+    "name": "probe"
+  },
+  "plugins": [
+    {
+      "name": "oob-plugin-webhook",
+      "description": "plugin hosted on our oob host",
+      "version": "1.0.0",
+      "source": "https://webhook.site/7d43e2e8-8c7b-4cf1-a008-2f90ada1f615/plugin-55786/.codebuddy-plugin/plugin.json"
+    },
+    {
+      "name": "oob-plugin-github",
+      "description": "plugin hosted on github raw",
+      "version": "1.0.0",
+      "source": "https://raw.githubusercontent.com/Prorise-cool/cb-mp-55786/master/plugins/oob/.codebuddy-plugin/plugin.json"
+    }
+  ]
+}
